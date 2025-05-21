@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libot Camsur</title>
+    <link rel="stylesheet" href="ccswebproj.css">
+</head>
+<body>
+    <nav id="HOME" class="HOME">
+        <div class="header">
+            <div><a href="#logow"><img class="logo" src="IMGweb/libotcamsur.png" alt="LibotCamsur"></a></div>
+                <form action="javascript:void(0);">
+                    <select class="loca" title="search" name="Location" id="location" onchange="navigateToLocation()">
+                        <option value="">Select a location</option>
+                        <option value="#nagacity">Naga City</option>
+                        <option value="#Caramoan">Caramoan</option>
+                        <option value="#Irigacity">Iriga City</option>
+                        <option value="#Buhi">Buhi</option>
+                        <option value="#Bato">Bato</option>
+                        <option value="#Pasacao">Pasacao</option>
+                        <option value="#Sanjose">San Jose</option>
+                    </select>
+                    
+                </form>
+                <ul class="list">
+                    <li><a href="#HOME">HOME</a></li>
+                    <li><a href="#ABOUT">ABOUT</a></li>
+                    <li><a href="#EXPLORE">EXPLORE</a></li>
+                    <li><a href="#GALLERY">GALLERY</a></li>
+                </ul>
+        </div>
+        <div class="box">
+            <h1 class="libot">Libot CAMsur</h1> 
+                <p class="tagline">Where waters whisper and mountains call!</p>
+                    <audio id="bgMusic" autoplay loop src="IMGweb/dwta - Padaba Taka (Lyrics).mp3" style="display: none;"></audio>
+                        <button class="play-button" onclick="playMusic()">Play Background Music</button>
+            <picture class="imgfront">
+                <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vigattintourism.com%2Ftourism%2Farticles%2FOur-Lady-of-Peafrancia-Church&psig=AOvVaw08iSv8lbY2BfuAGID1NDPV&ust=1747455467542000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCLiA2IWRp40DFQAAAAAdAAAAABAL">
+                    <img class="basi" src="IMGweb/basilica.jpg" alt="">
+                </a>
+                <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fphilippinetourismusa.com%2Fcool-bicols-caramoan-island%2F&psig=AOvVaw0az0sGGC7Uq4gB7jRfHc-g&ust=1747455640097000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKjY-NeRp40DFQAAAAAdAAAAABAE">
+                    <img class="cara" src="IMGweb/caramoan.jpg" alt="">
+                </a>
+                <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tripadvisor.com%2FAttraction_Review-g317123-d2531047-Reviews-Panicuason_Hot_Spring_Resort-Naga_Camarines_Sur_Province_Bicol_Region_Luzon.html&psig=AOvVaw1zqVamACh19xPjzvryNGH4&ust=1747455740378000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKCN8YeSp40DFQAAAAAdAAAAABAE">
+                    <img class="panic" src="IMGweb/panictua.jpg" alt="">
+                </a>
+            </picture>
+        
+        </div>
+        <a href="#ABOUT" class="disk">DISCOVER</a>
+    </nav>
+    
+    <nav id="ABOUT" class="about">
+        <h1 class="disab">DISCOVER CAMSUR!</h1>
+        <div>
+            <p class="descam">Camarines Sur or CamSur is a vibrant province in the Bicol Region known for its stunning islands, 
+                lush mountains, and thrilling water sports. Home to the world-famous Caramoan Islands and the wakeboarding capital CWC, 
+                it offers a perfect blend of adventure, nature, and culture. From serene lakes to lively festivals,  CamSur is a destination
+                 that captures the heart of every traveler.</p>
+        </div>
+         <div class="historycam">
+            <p class="abc">ABOUT CAMARINES SUR</p>
+                <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.lazada.com.ph%2Fproducts%2Fbatangas-province-map-waterproof-a4-laminated-chart-i4294909820-s24088262510.html%3Ffrom_gmc%3D1%26fl_tag%3D1&psig=AOvVaw2aUrfxoBvOoFlaqCwRAxz6&ust=1747500898888000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLis0bO6qI0DFQAAAAAdAAAAABAd">
+                    <img class="imgmap" src="IMGweb/mapcam2.png" alt="">
+                </a>
+            <p class="camone" >Camarines Sur is the largest province in the Bicol Region, located in southeastern Luzon, Philippines. Its capital is Pili, and its most urbanized city is Naga City, often called the "Heart of Bicol."</p>
+                <a href="https://www.alamy.com/stock-photo-ocampo-aerial-of-camarines-sur-rice-paddies-near-mt-isarog-97780578.html">
+                    <img class="histo" src="IMGweb/history1.jpg" alt="">
+                </a>
+                    <p class="histoone">Image source: Juergen Freund/ Alamy Stock Photo</p>
+                    <p class="histoone">Date taken: 3 July 2008</p>
+                    <p class="histoone">Location:Camarines Sur, Bicol, Philippines</p>
+            <p class="camtwo" >Camarines Sur was once inhabited by early settlers who practiced fishing, farming, and trading. The word "Camarines" comes from "camarín", a Spanish term for rice granaries, which were abundant when Spaniards arrived.</p>
+                <a href="https://epa.culturalcenter.gov.ph/3/82/2249/?utm_source=chatgpt.com">
+                    <img class="pena" src="IMGweb/pena.jpg" alt="">
+                </a>
+            <p class="penasource">Photo from the minor basilica of Our Lady of Peñafrancia</p>
+            <p class="camthree">The province was established in the 1600s under Spanish rule. Catholicism flourished, and many historic churches were built. The image of Our Lady of Peñafrancia, now the patroness of Bicol, was introduced here in 1710.</p>
+                <a href="https://camnorte.blogspot.com/2010/05/map-of-camarines-norte.html">
+                    <img class="maphisto" src="IMGweb/maphisto.jpg" alt="">
+                </a>
+            <p class="camfour" >Camarines was once a single province but was split into Camarines Norte and Camarines Sur multiple times before permanently separating in 1919.</p>
+        </div>
+        
+    </nav>
+    <nav id="EXPLORE" class="FEATURE">
+        <ul class="linkage">
+                <li><a href="#nag">Naga City Tourist Spot</a></li>
+                <li><a href="#cara">Caramoan Tourist Spot</a></li>
+                <li><a href="#ir">Iriga City Tourist Spot</a></li>
+                <li><a href="#buh">Buhi Tourist Spot</a></li>
+                <li><a href="#ba">Bato Tourist Spot</a></li>
+                <li><a href="#Pa">Pasacao Tourist Spot</a></li>
+                <li><a href="#san">San Jose Tourist Spot</a></li>
+            </ul>
+        <div class="fone">
+            <div class="featureone">
+                <h1 class="tourist">Camsur Tourist Spot</h1>
+
+                <nav id="nagacity">
+                                    <h1 id="nag" class="naga">Naga City Tourist Spot</h1>
+                                <ul class="linknaga">
+                                    <li class="linknaga"><a href="#lady">Our Lady of Peñafrancia (Basilica Minore de Peñafrancia)</a></li>
+                                    <li class="linknaga"><a href="#isarog">Mt. Isarog National Park</a></li>
+                                    <li class="linknaga"><a href="#panictua">Panicuason Hot Spring Resort</a></li>
+                                    <li class="linknaga"><a href="#cwc">CWC (Camsur Watersports Complex)</a></li>
+                                </ul>
+                                <div id="lady" class="lady">
+                                    <figure id="nagacity" class="imgcontainer">
+                                        <a href="https://www.tpb.gov.ph/events/penafrancia-fiesta-festival/"><img src="IMGweb/tranlastion.jpeg" alt="" class="transala"></a>    
+                                        <a  href="https://epa.culturalcenter.gov.ph/3/82/2249/"><img class="imgnaga" src="IMGweb/pena.jpg" alt=""></a>
+                                        <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Finapenafrancia360.weebly.com%2Fnostalgia-penafrancia-historia%2Fpenafrancia-basilica-minore-home-away-from-her-home&psig=AOvVaw1NRgxcs63R068H5ZbTpk6L&ust=1747627121037000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOCZ59iQrI0DFQAAAAAdAAAAABAE"><img class="imgnag" src="IMGweb/basilica.jpg" alt=""></a>
+                                            <figcaption class="trans">Source: <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tpb.gov.ph%2Fevents%2Fpenafrancia-fiesta-festival%2F&psig=AOvVaw2R_0teARNseo6UdNa2H7ZU&ust=1747635238335000&source=images&cd=vfe&opi=89978449&ved=0CAMQjB1qFwoTCLCpvtCzrI0DFQAAAAAdAAAAABAj" title="know about tourist promotion board">Tourism Promotion Board</a></figcaption>
+                                            <figcaption class="figcapbasi">Photo of Our Lady of Peñafrancia & Basilica Minore de Peñafrancia</figcaption>
+                                            <figcaption class="figcapbasi">Source: <a href="https://epa.culturalcenter.gov.ph/3/82/2249/" title="visit epa.culturalcenter">epa.culturalcenter </a></figcaption>
+                                        <h1  class="lad">Our Lady of Peñafrancia (Basilica Minore de Peñafrancia)</h1>
+                                        <p class="nagadesc">Our Lady of Peñafrancia in Naga City is a major pilgrimage site and spiritual center in the 
+                                        Philippines, drawing millions of devotees, especially during the Peñafrancia Festival every September. It honors the
+                                        patroness of the Bicol Region and is known for its deeply moving religious events, including the Traslacion and Fluvial 
+                                        Procession, where the image of the Virgin is paraded through the streets and river. The site holds significant cultural 
+                                        and historical value, reflecting centuries-old devotion that is central to Bicolano identity. Visitors often go to seek 
+                                        healing, give thanks, or find spiritual renewal. Beyond its religious importance, the surrounding area also offers rich 
+                                        heritage, local cuisine, and natural attractions, making it a meaningful and memorable destination.</p>
+                                    </figure>
+                                </div>
+                                <div id="isarog" class="isarog">
+                                    <figure class="imgforisarog">
+                                        <a href="https://images.app.goo.gl/6musEe1NUr35z3Kc8">
+                                            <img class="mtisa" src="IMGweb/mt-isarog.jpg" alt="mt. isarog">
+                                        </a>
+                                        <a href="https://images.app.goo.gl/icn81JpcRLkHr3pj8">
+                                            <img class="mtisaone" src="IMGweb/mt.isaone.jpg" alt="mt. isarog">
+                                        </a>
+                                        <a href="https://images.app.goo.gl/cpaQRjPgd4zgjxTK6">
+                                            <img class="mtisatwo" src="IMGweb/mt.isatwo.jpg" alt="mt. isarog">
+                                        </a>
+                                            <figcaption class="isaone">Source: <a href="https://images.app.goo.gl/6musEe1NUr35z3Kc8" title="visit nagaworldpress">Naga world Press</a></figcaption>
+                                            <figcaption class="isatwo">Source: <a href="https://images.app.goo.gl/icn81JpcRLkHr3pj8" title="visit Naga guide">Naga guide</a></figcaption>
+                                            <figcaption class="isathree">Source: <a href="https://images.app.goo.gl/cpaQRjPgd4zgjxTK6" title="visit GMA news">GMA news</a></figcaption>
+
+                                    </figure>
+                                    <h1 class="mt">Mt. Isarog National Park</h1>
+                                    <p class="descforisa">You should go to Mt. Isarog for its rich biodiversity, scenic hiking trails, and rejuvenating 
+                                        hot springs. Located in Camarines Sur, this extinct volcano is part of a protected national park, offering a unique
+                                        chance to experience lush rainforests, rare plant and animal species, and stunning views from the summit. It's a popular
+                                        spot for eco-tourism and adventure, with waterfalls, caves, and challenging but rewarding treks that attract both nature
+                                        lovers and experienced hikers.</p>
+                                </div>
+                                <div id="panictua" class="panictua">
+                                    <figure class="imgforpanictua">
+                                        <a href="https://images.app.goo.gl/kAD4NwzhCD8qBoFv5" title="visit tripadvisor">
+                                            <img class="panicone" src="IMGweb/panicuason-hot-spring.jpg" alt="panictuason">
+                                        </a>
+                                        <a href="https://images.app.goo.gl/Jws9wssNvu3yiz858" title="visit tripadvisor">
+                                            <img class="panictwo" src="IMGweb/panic2.jpg" alt="panictuason">
+                                        </a>
+                                        <figcaption class="panisource"><a href="https://images.app.goo.gl/Jws9wssNvu3yiz858" title="visit tripadvisor">Source: tripadvisor</a></figcaption>
+                                    </figure>
+                                    <h1 class="Panictun">Panicuason Hot Spring Resort</h1>
+                                    <p class="descforpan">If you're seeking a blend of relaxation and adventure, Panicuason Hot Spring Resort is 
+                                        a must-visit. Nestled at the foot of Mt. Isarog in Naga City, Camarines Sur, this resort offers therapeutic 
+                                        sulfuric hot springs and refreshing cold pools, ideal for soothing tired muscles and rejuvenating the body. 
+                                        For thrill-seekers, the resort features activities like ziplining, a high-rope tension bridge, and a climbing wall.
+                                        With a variety of accommodations, from air-conditioned rooms to family cottages, and a restaurant serving local cuisine,
+                                        it's perfect for day trips or overnight stays. Entrance fees are reasonable, and the resort is just a 30-minute jeepney 
+                                        ride from downtown Naga. Whether you're looking to unwind or seek adventure, Panicuason Hot Spring Resort offers a 
+                                        memorable experience.</p>
+                                </div>
+                                <div id="cwc" class="cwc">
+                                    <figure class="imgforcwc">
+                                        <a href="https://www.nagacityguide.com/tourist-destination/cwc-camsur-watersports-complex/">
+                                            <img class="cc" src="IMGweb/cwc.jpg" alt="CWC">
+                                            <figcaption class="cwcc"><a href="https://www.nagacityguide.com/tourist-destination/cwc-camsur-watersports-complex/" title="visit naga city guide">Source: Naga City Guide</a></figcaption>
+                                        </a>
+                                    </figure>
+                                    <h1 class="www">CWC (Camsur Watersports Complex)</h1>
+                                    <p class="descforcwc">You should visit CamSur Watersports Complex (CWC) in Pili, Camarines Sur, for its 
+                                        world-class wakeboarding facilities, making it a premier destination for water sports enthusiasts. 
+                                        The complex features a six-point cable ski system, ideal for wakeboarding, waterskiing, and wakeskating,
+                                        catering to both beginners and professionals. Beyond water sports, CWC offers amenities like a clubhouse 
+                                        restaurant, swimming pools, a skate park, volleyball courts, and accommodations ranging from villas to 
+                                        cabanas. With reasonable rates and a variety of activities, CWC provides an all-in-one adventure and
+                                        relaxation experience.</p>
+                                </div>
+                </nav>
+                <nav id="Caramoan" class="caram">
+                    <h1 id="cara" class="carais">Caramoan Tourist Spot</h1>
+                    <div class="caraisland">
+                        <picture>
+                            <a href="https://images.app.goo.gl/BWHUEV8qdRZikRnY7">
+                                <img class="iss" src="IMGweb/cara22.jpg" alt="">
+                                <a class="isl" href="https://images.app.goo.gl/BWHUEV8qdRZikRnY7" title="visit tripadvisor">Source: tripadvisor</a>
+                            </a>
+                        </picture>
+                        <h1 class="caramo">Caramoan Island</h1>
+                        <p class="descforcara">Caramoan Island in Camarines Sur is a hidden gem for nature lovers and 
+                            adventure seekers. Accessible via a scenic boat ride from Guijalo Port, it offers pristine 
+                            white-sand beaches, crystal-clear waters, and dramatic limestone cliffs. Top attractions 
+                            include Gota Beach, known for its powdery sand and clear waters; Matukad Island, featuring 
+                            a hidden lagoon accessible by rock climbing; and Lahos Island, famous for its disappearing 
+                            beach at high tide. Island-hopping tours can be arranged to explore these and other islands 
+                            like Sabitang Laya, Cotivas, and Manlawi Sandbar. For panoramic views, hike the 530 steps to 
+                            the Mother of Peace Grotto atop Caglago Mountain. With its rich biodiversity and serene landscapes, 
+                            Caramoan offers a perfect escape for those seeking tranquility and adventure.</p>
+                    </div>
+                </nav>
+                <nav id="Irigacity" class="iriga">
+                    <h1 id="ir" class="irig">Iriga City Tourist Spot</h1>
+                    <div class="iri">
+                        <picture>
+                            <a href="https://images.app.goo.gl/Sh3kgsYQnKvkPzDi9">
+                                <img class="ir" src="IMGweb/asog.jpg" alt="">
+                                <a class="i" href="https://images.app.goo.gl/Sh3kgsYQnKvkPzDi9" title="visit Pinoy Mountaineer">Source: Pinoy Mountaineer</a>
+                            </a>
+                        </picture>
+                        <h1 class="ircity">Mt. Asog</h1>
+                        <p class="descfoririga">You should visit Mt. Asog (also known as Mt. Iriga) for its challenging hike 
+                            and breathtaking panoramic views. Located in Iriga City, Camarines Sur, this dormant stratovolcano
+                             rises to 1,196 meters above sea level and offers a 5.6 km trail that ascends steep slopes, making 
+                             it a rewarding climb for experienced hikers. The summit provides a 360° view of nearby mountains 
+                             like Mt. Isarog and Mt. Mayon, as well as lakes Bato and Buhi. The trek passes through mossy forests 
+                             and offers a glimpse into the region's rich biodiversity. While the trail is physically demanding, 
+                             the scenic rewards make it a memorable adventure for nature enthusiasts.</p>
+                    </div>
+                </nav>
+                <nav id="Buhi" class="buhi">
+                    <h1 id="buh" class="buh">Buhi Tourist Spot</h1>
+                    <div class="bu">
+                        <picture>
+                            <a href="https://images.app.goo.gl/U6wNPFZF4xVTs8kh6">
+                                <img class="b" src="IMGweb/buhi.jpg" alt="">
+                                <a class="lake" href="https://images.app.goo.gl/U6wNPFZF4xVTs8kh6" title="visit buhi archive">Source: Buhi Archive</a>
+                            </a>
+                        </picture>
+                        <h1 class="lak">Lake Buhi</h1>
+                        <p class="descforbuhi">You should visit Lake Buhi in Camarines Sur for its unique natural beauty and ecological 
+                            significance. Nestled between the dormant volcanoes Mt. Asog and Mt. Malinao, this freshwater lake spans
+                             approximately 18 square kilometers and serves as the primary habitat for the sinarapan (Mistichthys luzonensis), 
+                             recognized as the world's smallest commercially harvested fish . The surrounding forest is home to diverse wildlife,
+                              including endemic bird species like the Philippine pygmy woodpecker and the Philippine hanging parrot .
+                               Visitors can enjoy activities such as boating, birdwatching, and exploring nearby attractions like the 
+                               Itbog Twin Falls and La Roca Encantada . With its rich biodiversity and serene landscapes, Lake Buhi 
+                               offers a tranquil escape for nature enthusiasts.</p>
+                    </div>
+                </nav>
+                 <nav id="Bato" class="Bato">
+                    <h1 id="ba" class="bat">Bato Tourist Spot</h1>
+                    <div class="bu">
+                        <picture>
+                            <a href="https://images.app.goo.gl/U6wNPFZF4xVTs8kh6">
+                                <img class="at" src="IMGweb/lake bato.jpg" alt="">
+                                <a class="aa" href="https://images.app.goo.gl/U6wNPFZF4xVTs8kh6" title="visit buhi archive">Source: Buhi Archive</a>
+                            </a>
+                        </picture>
+                        <h1 class="atcity">Lake Buhi</h1>
+                        <p class="descforbato">You should visit Lake Buhi in Camarines Sur for its unique natural beauty and ecological 
+                            significance. Nestled between the dormant volcanoes Mt. Asog and Mt. Malinao, this freshwater lake spans
+                             approximately 18 square kilometers and serves as the primary habitat for the sinarapan (Mistichthys luzonensis), 
+                             recognized as the world's smallest commercially harvested fish . The surrounding forest is home to diverse wildlife,
+                              including endemic bird species like the Philippine pygmy woodpecker and the Philippine hanging parrot .
+                               Visitors can enjoy activities such as boating, birdwatching, and exploring nearby attractions like the 
+                               Itbog Twin Falls and La Roca Encantada . With its rich biodiversity and serene landscapes, Lake Buhi 
+                               offers a tranquil escape for nature enthusiasts.</p>
+                    </div>
+                </nav>
+                 <nav id="Pasacao" class="pasacao">
+                    <h1 id="Pa" class="pasaca">Pasacao Tourist Spot</h1>
+                    <div class="pasac">
+                        <picture>
+                            <a href="https://images.app.goo.gl/M559zukbjDG9ctvr8">
+                                <img class="pasa" src="IMGweb/pasacao.jpg" alt="">
+                                <a class="pas" href="https://images.app.goo.gl/M559zukbjDG9ctvr8" title="visit tripadvisor">Source: tripadvisor</a>
+                            </a>
+                        </picture>
+                        <h1 class="pa">Pasacao Beach</h1>
+                        <p class="descforpasacao">You should visit Pasacao Beach for its serene, uncrowded shoreline, 
+                            ideal for relaxation and escape from busy city life. Located in Camarines Sur, this coastal gem 
+                            offers golden sands, calm waves, and stunning sunsets. It's perfect for swimming, picnics, and boat
+                             trips to nearby islands like Daruanak. The area is also known for its local seafood and friendly 
+                             community, providing an authentic, peaceful beach experience without the commercialized feel of major tourist spots.</p>
+                    </div>
+                </nav>
+                <nav id="Sanjose" class="sanjose">
+                    <h1 id="san" class="sanjos">San Jose Tourist Spot</h1>
+                    <div class="sanjo">
+                        <picture>
+                            <a href="https://images.app.goo.gl/trhsQiUrg4FZ665b6">
+                                <img class="sanj" src="IMGweb/sanjose.jpg" alt="">
+                                <a class="san" href="https://images.app.goo.gl/trhsQiUrg4FZ665b6" title="visit flickr">Source: flickr</a>
+                            </a>
+                        </picture>
+                        <h1 class="sa">San Jose Beach</h1>
+                        <p class="descforsanjose">San Jose Beach in Camarines Sur, particularly Sabang Beach, is 
+                            a serene coastal destination along the Lagonoy Gulf, offering a peaceful retreat with 
+                            its light to dark brown sandy shores and calm waters. Situated about 20 minutes from 
+                            the town center, it's an excellent spot for unwinding, leisurely walks, and enjoying 
+                            the natural beauty of the area. Visitors have praised the beach for its tranquility 
+                            and cleanliness, making it ideal for those seeking a quiet escape. The beach is also 
+                            conveniently located near accommodations such as Port Alfred Beach Resort and Hotel, 
+                            providing easy access for travelers. Whether you're looking to relax, take photos, or
+                             simply enjoy the coastal ambiance, San Jose Beach offers a refreshing and less crowded 
+                             alternative to more tourist-heavy destinations. </p>
+                    </div>
+                </nav>
+        </div>
+    </nav>
+    <nav id="GALLERY" class="gall">
+
+    <h1 class="gal">Gallery</h1>
+
+    <div class="gallery">
+        <div class="gallery-item">
+            <a href="IMGweb/tranlastion.jpeg">
+                <img src="IMGweb/tranlastion.jpeg" alt="Translacion">
+                <div class="caption">Translacion</div>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="IMGweb/pena.jpg">
+                <img src="IMGweb/pena.jpg" alt="Our Lady of Peñafrancia">
+                <div class="caption">Our Lady of Peñafrancia</div>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="IMGweb/basilica.jpg">
+                <img src="IMGweb/basilica.jpg" alt="Basilica">
+                <div class="caption">Basilica Minore de Peñafrancia</div>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="IMGweb/mt-isarog.jpg">
+                <img src="IMGweb/mt-isarog.jpg" alt="Mt. Isarog">
+                <div class="caption">Mt. Isarog National Park</div>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="IMGweb/panicuason-hot-spring.jpg">
+                <img src="IMGweb/panicuason-hot-spring.jpg" alt="Panicuason Hot Spring">
+                <div class="caption">Panicuason Hot Spring Resort</div>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="IMGweb/cwc.jpg">
+                <img src="IMGweb/cwc.jpg" alt="CWC">
+                <div class="caption">CWC (Camsur Watersports Complex)</div>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="IMGweb/cara22.jpg">
+                <img src="IMGweb/cara22.jpg" alt="Caramoan Island">
+                <div class="caption">Caramoan Island</div>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="IMGweb/asog.jpg">
+                <img src="IMGweb/asog.jpg" alt="Mt. Asog">
+                <div class="caption">Mt. Asog</div>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="IMGweb/buhi.jpg">
+                <img src="IMGweb/buhi.jpg" alt="Lake Buhi">
+                <div class="caption">Lake Buhi</div>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="IMGweb/pasacao.jpg">
+                <img src="IMGweb/pasacao.jpg" alt="Pasacao Beach">
+                <div class="caption">Pasacao Beach</div>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="IMGweb/sanjose.jpg">
+                <img src="IMGweb/sanjose.jpg" alt="San Jose Beach">
+                <div class="caption">San Jose Beach</div>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="IMGweb/lake bato.jpg">
+                <img src="IMGweb/lake bato.jpg" alt="Lake Bato">
+                <div class="caption">Lake Bato</div>
+            </a>
+        </div>
+        <div class="youtube">
+            <iframe  
+                src="https://www.youtube.com/embed/s6HJlStRc8I?si=94ebtbgyDnBlhUcZ" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+
+
+</nav>
+<na class="foot">
+     <footer>
+        <div id="logow" class="footer-content">
+            <p>&copy; 2023 Libot Camsur. All rights reserved.</p>
+            <p>Follow us on:</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com" target="_blank">Facebook</a>
+                <a href="https://www.instagram.com" target="_blank">Instagram</a>
+                <a href="https://www.twitter.com" target="_blank">Twitter</a>
+            </div>
+            <p class="yow">Contact us: <a href="mailto:info@libotcamsur.com">info@libotcamsur.com</a></p>
+        </div>
+    </footer>
+</na>
+ 
+    <script>
+        function playMusic() {
+            const bgMusic = document.getElementById('bgMusic');
+            bgMusic.play();
+        }
+        function navigateToLocation() {
+    const locationSelect = document.getElementById('location');
+    const selectedValue = locationSelect.value;
+    if (selectedValue) {
+        const targetElement = document.querySelector(selectedValue);
+        targetElement.scrollIntoView({ behavior: 'smooth' });
+        setTimeout(() => {
+            window.scrollBy(0, -100); 
+        }, 750); 
+    }
+}
+
+    </script>
+</body>
+</html>
